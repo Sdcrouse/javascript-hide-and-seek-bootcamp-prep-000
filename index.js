@@ -1,4 +1,4 @@
-/* Note: I have to call httpserver in the terminal, not open index.html. Then, go to the address that it says my server is running at. Also, since I'm running the program in another tab, I have to log out and back in, then learn test and learn submit when I'm done. */
+/* Note: I have to call httpserver in the terminal, not open index.html. Then, go to the address that it says my server is running at. Also, since I'm running the program in another tab, I have to log out and back in when I'm done, then learn test and learn submit. */
 
 function getFirstSelector(selector){
   return document.querySelector(selector);
