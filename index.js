@@ -13,11 +13,11 @@ function nestedTarget() {
 function increaseRankBy(n){
   let elements = document.getElementById('app').querySelectorAll('ul.ranked-list');
   
-  for(let i = 0; i < elements.length; i++){ //loop through elements
+  for(let i = 0; i < elements.length; i++){ //Loop through elements
     for(let p = 0; p < elements[i].children.length; p++){ /* loop through each child of elements */
       
-      elements[i].children[i].innerHTML = parseInt(elements[i].children[i].innerHTML) + n; /* Get the innerHTML of each child of the ul.ranked-list element. Then, parse it for its number and increment it by n. */
+     elements[i].children[p].innerHTML = parseInt(elements[i].children[p].innerHTML) + n; /* Get the innerHTML of each child of the ul.ranked-list element. Then, parse it for its number and increment it by n. */
     }
-  }
-}
+  } 
+} /* Admittedly, this looks confusing. Maybe make separate for loops next time and/or make a variable for each ranked-list. */
 
